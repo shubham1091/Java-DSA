@@ -1,0 +1,39 @@
+Git installation 
+    Git command line tool
+    Git bash (Terminal program)
+
+# we can also use Git gui insted of command line tool but here we are going to learn command line tool
+
+Initial Setup 
+    git config --global user.name "my name" 
+    git config --global user.email "my email"
+
+to check 
+    git confit user.name 
+    git config user.email
+
+git three stage Architecture 
+                            local operations
+
+    [working directory]         [staging area]          [git directory/repositoty]
+            |                         |                             |
+            |                         |                             |
+            |<<<<================================================== |
+            |                         |    (checkout the project)   |
+            |=====================>>>>|                             |
+            |      (stage files)      |                             |
+            |                         |=========================>>>>|
+            |                         |           (commit)          |
+
+            
+Tracking our first git pproject
+    first check if the folder we are in is a git repository or not for that we can use the command (git status)
+    if it is not a git repository then make it a git repository for that use command (git init)
+    and now if we run git status command we can see it has become a git repository
+    now we can use (git add --a )command to add all files to the staging area 
+    after that use (git commit -m "your massage") to commit the changes
+    we can use (git log )command to see previous commit
+
+    
+    # if you want to stage only one file use (git add fileName.excetention)
+    

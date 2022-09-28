@@ -28,6 +28,10 @@ public class Condition {
             salary += 1000;
         }
         System.out.println(salary);
+        /* here if we try to run the code even though salary is greater then 20000
+         * but the increment is only going to be 2000 not 3000 
+         * for that we use switch statement to do 
+         */
 
         int a = 10;
         int b = 20;
