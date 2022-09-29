@@ -8,7 +8,7 @@ public class Nested {
         int empID = in.nextInt();
         String department = in.next();
 
-        //we can nest switch statements
+        // we can nest switch statements
         switch (empID) {
             case 1:
                 System.out.println("shubham");
@@ -32,7 +32,7 @@ public class Nested {
                 System.out.println("invalid id");
         }
 
-        //better way to write the same thing as above
+        // better way to write the same thing as above
         switch (empID) {
             case 1 -> System.out.println("shubham");
             case 2 -> System.out.println("Aayushi");
@@ -46,6 +46,7 @@ public class Nested {
             }
             default -> System.out.println(" invalid id");
         }
+        in.close();
     }
 
 }
