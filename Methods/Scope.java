@@ -12,6 +12,7 @@ public class Scope {
             a = 89;
             // a is part of the biger block hanse we can use it in the smaller block
             int c = a+b;
+            System.out.println(c);
             
         }
         // it is known as block scope c is inside the curly braces
