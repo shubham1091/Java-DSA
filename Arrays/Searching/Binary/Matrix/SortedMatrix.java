@@ -18,7 +18,7 @@ public class SortedMatrix {
 
     static int[] search(int[][] matrix, int target) {
         int rows = matrix.length;
-        int cols = matrix[0].length;// be xautious , matrix may be empty
+        int cols = matrix[0].length;// be cautious , matrix may be empty
 
         if (rows == 1) {
             return biSearch(matrix, 0, 0, cols - 1, target);
