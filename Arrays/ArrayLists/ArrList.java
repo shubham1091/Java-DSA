@@ -1,4 +1,4 @@
-package Arrays.ArrayList;
+package Arrays.ArrayLists;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -42,9 +42,10 @@ public class ArrList {
         }
         // output => list.get(index) time complexity is O(1)
         for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i) + " ");
+            System.out.print(list.get(i) + " ");
             // pass index here, list[index] syntax will not work here
         }
+        System.out.println();
         /*
          * How arraylist works
          * (1) size is fixed internally
@@ -55,13 +56,15 @@ public class ArrList {
          */
         System.out.println(list);
         Collections.sort(list);
-        System.out.println();
+        //to sort in decending order Collections.sort(list,Collections.reverseOrder());
+        System.out.println(list);
         in.close();
     }
-    static void swap (ArrayList<Integer> list , int idx1, int idx2){
+
+    static void swap(ArrayList<Integer> list, int idx1, int idx2) {
         int temp = list.get(idx1);
-        list.set(idx1,list.get(idx2));
-        list.set(idx2,temp);
+        list.set(idx1, list.get(idx2));
+        list.set(idx2, temp);
     }
 
 }
