@@ -10,16 +10,16 @@ public class Largest {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        //Q: find the largest of three number
-        //simple way
-        System.out.println(Math.max(a,Math.max(b,c)));
+        // Q: find the largest of three number
+        // simple way
+        System.out.println(Math.max(a, Math.max(b, c)));
 
-        //there are manys to solve this problem here is another way
-        int max =a;
-        if(b>max){
+        // there are manys to solve this problem here is another way
+        int max = a;
+        if (b > max) {
             max = b;
         }
-        if(c>max){
+        if (c > max) {
             max = c;
         }
         System.out.println(max);
@@ -27,5 +27,5 @@ public class Largest {
         sc.close();
 
     }
-    
+
 }

@@ -1,4 +1,4 @@
-package ConditionLoop;
+package ConditionLoop.Loop;
 
 import java.util.Scanner;
 
