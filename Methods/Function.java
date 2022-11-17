@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Function {
     public static void main(String[] args) {
         // In java any function which is in a class is known as method
-        Scanner in = new Scanner(System.in);
         // Q : take input of 2 numbers and print the sum
         /*
          * System.out.print("Enter number 1:");
@@ -19,12 +18,11 @@ public class Function {
 
         int ans = sum2();// returning an integer value
         System.out.println(ans);
-        in.close();
     }
 
     /*
      * syntax :
-     * access modifier return_type name (){
+     * access modifier return_type name (parameter){
      * ----return statement;
      * }
      */

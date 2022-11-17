@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Switch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter fruit name: ");
         String fruit = sc.next();
+        System.out.println("fruit 1");
 
         // to check equality in strings use .equals(" ") insted of "=="
         if (fruit.equals("mango")) {
@@ -43,6 +45,7 @@ public class Switch {
          * if default is not at the end, put break after it
          */
 
+         System.out.println("fruit 2");
         switch (fruit) {
             case " mango":
                 System.out.println("King of fruit");
@@ -66,6 +69,7 @@ public class Switch {
          * default -> body;}
          */
 
+         System.out.println("fruit 3");
         switch (fruit) {
             case "mango" -> System.out.println("King of fruit");
             case "apple" -> System.out.println("A sweet red fruit");
@@ -74,6 +78,8 @@ public class Switch {
         }
         // we can also use {} after -> when multiple statements are there
 
+        System.out.println("week 1");
+        System.out.print("Enter day number in week :");
         int day = sc.nextInt();
         switch (day) {
             case 1:
@@ -89,6 +95,7 @@ public class Switch {
                 break;
         }
 
+        System.out.println("week 2");
         switch (day) {
             case 1, 2, 3, 4, 5 -> System.out.println("Weekday");
             case 6, 7 -> System.out.println("Weekend");

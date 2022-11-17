@@ -1,8 +1,16 @@
 package Methods;
 
+import java.util.Scanner;
+
 public class Binomial {
     public static void main(String[] args) {
-        System.out.println(bio(5, 2));
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter N and r to findout binomial coefficient");
+        int n = sc.nextInt();
+        int r = sc.nextInt();
+
+        System.out.println(bio(n, r));
+        sc.close();
     }
 
     static int factorial(int num) {

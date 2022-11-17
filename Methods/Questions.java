@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Questions {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        System.out.println("Enter a number to check wether it is prime or not");
         int n = in.nextInt();
         System.out.println(isPrime(n));
+        System.out.println("armstrong numbers");
         all();
         in.close();
     }
@@ -33,7 +35,7 @@ public class Questions {
         while (n > 0) {
             int rem = n % 10;
             n /= 10;
-            sum = sum + rem * rem * rem;
+            sum = sum + (int)(Math.pow(rem, 3));
         }
         return org == sum;
     }
