@@ -1,5 +1,7 @@
 package OOP.singleton;
 
+import OOP.access.A;
+
 public class Main {
     public static void main(String[] args) {
         Singleton obj = Singleton.geInstance("shubham");
@@ -12,6 +14,11 @@ public class Main {
         System.out.println(obj2.name);
         System.out.println(obj3.name);
         // name will not be changed
+
+        A a = new A(10, "shubham", 3.14f);
+        a.getNum();
+        String n = a.name;
+        System.out.println("public string name is " + n);
 
     }
 
