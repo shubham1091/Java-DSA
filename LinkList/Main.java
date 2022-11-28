@@ -18,8 +18,10 @@ public class Main {
             list.display();
             System.out.println(list.delete(2));
             list.display();
+            System.out.println("is given list a palindrome : " + list.palindrome());
+            System.out.println(list.isCycle());
         }
-        
+
         {
             // dubly linked list
             System.out.println("Dubly linked list");
@@ -43,6 +45,6 @@ public class Main {
             list.insert(75);
             list.display();
         }
-    }
 
+    }
 }
