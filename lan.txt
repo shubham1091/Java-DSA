@@ -78,15 +78,17 @@ How java code executes
 
 [.java file (human readanle)]
 {this is the source code}
+            ↓
     compiler(entire file)
-
+            ↓
 [.class file (byte code)]
 { -this code will not directly run on a system 
   -we need JVM to rum this 
   -Reason why Java is platform independent
 }
+            ↓
     interpreter (line by line)
-
+            ↓i
 [Machine code (0 and 1)]
 
 
