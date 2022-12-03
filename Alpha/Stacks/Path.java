@@ -39,7 +39,7 @@ public class Path {
                 if (!st.empty()) {
                     st.pop();
                 }
-            } else if (dir.equals('.')) {
+            } else if (dir.equals(".")) {
                 continue;
             } else if (dir.length() != 0) {
                 st.push(dir);
