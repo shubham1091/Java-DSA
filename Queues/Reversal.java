@@ -28,7 +28,7 @@ public class Reversal {
         while (!q.isEmpty()) {
             s.push(q.remove());
         }
-        while (!s.isEmpty()) {
+        while (!s.empty()) {
             q.add(s.pop());
         }
     }
