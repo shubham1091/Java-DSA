@@ -1,4 +1,4 @@
-package BinaryTree;
+package BinaryTrees.BT;
 
 public class Transform {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Transform {
         int l = sum(root.left);
         int r = sum(root.right);
 
-        int rt = root.data+l+r;
+        int rt = root.data + l + r;
         root.data = l + r;
         return rt;
     }

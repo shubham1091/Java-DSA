@@ -1,4 +1,5 @@
-package BinaryTree;
+package BinaryTrees.BT;
+
 
 public class Kth {
     public static void main(String[] args) {

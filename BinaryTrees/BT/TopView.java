@@ -1,4 +1,5 @@
-package BinaryTree;
+package BinaryTrees.BT;
+
 
 import java.util.HashMap;
 import java.util.LinkedList;
