@@ -1,4 +1,4 @@
-package Alpha.BinaryTree;
+package Alpha.BinaryTree.BT;
 
 import java.util.LinkedList;
 import java.util.Queue;

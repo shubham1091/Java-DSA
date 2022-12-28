@@ -1,4 +1,4 @@
-package Alpha.BinaryTree;
+package Alpha.BinaryTree.BT;
 
 public class Univalued {
     /*
