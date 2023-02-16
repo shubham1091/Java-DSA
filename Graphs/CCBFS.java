@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class CCBFS extends BFS {
+    //Connected Components BFS
     static void bfs(ArrayList<Edge>[]graph){
         boolean vis[] = new boolean[graph.length];
         for(int i=0;i<graph.length;i++){

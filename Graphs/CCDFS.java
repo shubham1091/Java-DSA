@@ -3,6 +3,7 @@ package Graphs;
 import java.util.ArrayList;
 
 public class CCDFS extends DFS {
+    //Connected Components 
     static void dfs(ArrayList<Edge>[]graph){
         boolean vis[] = new boolean[graph.length];
         for(int i=0; i<graph.length; i++){

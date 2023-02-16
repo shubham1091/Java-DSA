@@ -3,6 +3,15 @@ package Graphs;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
+/* 
+* Bipartite Graph
+* A Bipartite Graph is a graph whose vertices can be divided into 
+* two independent sets, U and V such that every edge (u,v) either 
+* connects a vertex from U to V or a vertex from V to U. In orther
+* words, for every edge (u,v), either u belongs to U and v to V. 
+* Ubelongs to V and v to U. We can also say that there is no edge 
+* that connects vertices of same set.
+*/
 
 public class Bipartite {
     static class Edge {
@@ -37,7 +46,7 @@ public class Bipartite {
     public static boolean isBipartite(ArrayList<Edge>[] graph) {
         int[] col = new int[graph.length];
         for (int i = 0; i < col.length; i++) {
-            col[i] = -1;//no color
+            col[i] = -1;// no color
         }
 
         Queue<Integer> q = new LinkedList<>();
